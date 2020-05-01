@@ -6,6 +6,11 @@
 body {
     background-color: #eeeeee;
 }
+a {
+    text-decoration: none;
+    color: #167ac6;
+}
+
 #main-content > section > section,
 #main-content > section > article {
     border: 1px solid #ccc;
@@ -70,35 +75,31 @@ nav * {
 
 /*The language badge*/
 #language {
+    margin: 1em 0;
     border: 2px solid #167ac6;
 }
 #language-top {
     color: white;
-    align-items: center;
-    align-content: center;
-    padding: 0;
-}
-#language-top > p {
-    display: inline;
-}
-
-#langulage * {
-    display: inline-block;
-    line-height: 20px;
-}
-#language,
-#language-top {
+    padding: 0.5em 0.75em;
     background-color: #167ac6;
+    font-size: 16px;
 }
-
 #language-top > button {
     float: right;
-    background-color: none;
+    background-color: #167ac6;
     border: none;
     color: white;
 }
 #language-bottom {
     background-color: white;
+    padding: 0.75em 1em;
+    font-size: 14px;
+}
+#language-bottom > a {
+    float: right;
+}
+#user-circle {
+    margin-right: 10px;
 }
 
 /* Video Content */
