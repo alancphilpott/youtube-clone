@@ -1,8 +1,49 @@
 nav {
     background-color: white;
+    padding: 0.25em 2em;
 }
+nav * {
+    vertical-align: middle;
+}
+#nav {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 12fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: "nav-left-logo search nav-right-buttons";
+}
+#nav-left-logo {
+    grid-area: nav-left-logo;
+}
+#search {
+    grid-area: search;
+}
+#search > input {
+    width: 80%;
+    padding-right: 0;
+    margin-right: 0;
+}
+#search > button {
+    width: 15%;
+    padding-left: 0;
+    color: #999999;
+}
+.no-border {
+    border: none;
+    background-color: white;
+}
+.signin-button {
+    background-color: #167ac6;
+    border-radius: 3px;
+    color: white;
+    padding: 0.4em 0.6em;
+}
+#nav-right-buttons {
+    grid-area: nav-right-buttons;
+}
+
 #content {
-    width: 60%;
+    width: 77%;
     border: 2px solid #999999;
     margin: auto;
 }
@@ -35,4 +76,7 @@ body {
     grid-area: up-next;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
+}
+.logo {
+    max-width: 100px;
 }
