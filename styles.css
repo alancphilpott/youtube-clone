@@ -1,5 +1,11 @@
+nav {
+    background-color: white;
+}
 #content {
     width: 60%;
-    border: 2px solid #e0ebeb;
+    border: 2px solid #999999;
     margin: auto;
+}
+body {
+    background-color: #EEEEEE;
 }
