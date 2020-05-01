@@ -7,9 +7,10 @@ nav {
     margin: auto;
 }
 body {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
-#main-content>section>section, #main-content>section>article {
+#main-content > section > section,
+#main-content > section > article {
     border: 1px solid #ccc;
 }
 
@@ -22,7 +23,16 @@ body {
 }
 #video {
     grid-area: video;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "current"
+        "interactive"
+        "description"
+        "comments";
 }
 #up-next {
     grid-area: up-next;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
 }
