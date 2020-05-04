@@ -338,6 +338,29 @@ nav * {
 .icon-color {
     color: #999999;
 }
-.vertical-aligned {
+footer {
+    background-color: white;
+    margin-top: 4em;
+    padding: 0 2em;
+}
+footer > section:first-child {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 1em 0;
+}
+footer > section:first-child > * {
+    margin-right: 1em;
     vertical-align: middle;
+}
+footer > section:first-child > button {
+    background-color: #f8f8f8;
+    color: #333333;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 0.7em;
+    box-shadow: none;
+    border: 1px solid rgb(211, 211, 211);
+    border-style: solid;
+}
+.footer-logo {
+    padding-left: 0;
 }
