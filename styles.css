@@ -139,7 +139,6 @@ nav * {
     grid-template-rows: auto;
     grid-template-areas: "thumbnail vid-info";
 }
-
 .thumbnail {
     grid-area: thumbnail;
 }
@@ -156,6 +155,16 @@ section#up-next article:first-child p {
 .vid-info p {
     margin-block-end: 0;
     margin-block-start: 0;
+}
+.channel,
+.view-count {
+    color: #767676;
+    font-size: 12px;
+}
+.vid-title {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .logo {
