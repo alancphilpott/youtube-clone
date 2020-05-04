@@ -144,8 +144,8 @@ nav * {
 /* Interactive Section */
 #i-top-row {
     display: grid;
-    border-bottom: 1px solid black;
-    grid-template-columns: 4fr 1fr;
+    border-bottom: 1px solid #666666;
+    grid-template-columns: 4fr 1.5fr;
     grid-template-rows: auto;
     grid-template-areas: "i-left-col i-right-col";
 }
@@ -159,13 +159,17 @@ nav * {
     grid-area: i-right-col;
     margin-block-end: 0;
     margin-block-start: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid #167ac6;
 }
 #i-right-col p {
+    color: #666666;
+    font-size: 18px;
     margin-block-end: 0;
     margin-block-start: 0;
     position: absolute;
     bottom: 5px;
-    left: 0;
+    right: 0;
 }
 #i-left-col > img {
     padding-right: 0.75em;
@@ -175,7 +179,7 @@ nav * {
     border-width: 1px 1px 1px medium;
     border-style: solid solid solid none;
     margin: 0 0 0 -5px;
-    padding: 0 6px 2px 7px;
+    padding: 2px 6px 1px 7px;
     border-color: rgb(204, 204, 204);
     color: rgb(115, 115, 115);
     border-radius: 0 3px 3px 0;
@@ -204,17 +208,38 @@ nav * {
     padding: 1px 3px 2px 3px;
     border-radius: 3px 0 0 3px;
 }
+.subscribe-text {
+    padding: 0 7px 0 7px;
+    font-size: 14px;
+}
 #b-bottom-row {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "b-left-col b-right-col";
+    padding-top: 0.6em;
 }
 #b-left-col {
     grid-area: b-left-col;
 }
 #b-right-col {
     grid-area: b-right-col;
+    text-align: right;
+}
+#b-bottom-row button {
+    background: none;
+    border-style: none;
+    color: #666666;
+    padding: 0;
+}
+.i-text-padding {
+    padding: 0 12px 0 8px;
+}
+.i-text-padding-end {
+    padding: 0 0 0 5px;
+}
+.i-text-padding-start {
+    padding: 0;
 }
 
 /* Up Next Section */
