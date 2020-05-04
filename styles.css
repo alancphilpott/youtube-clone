@@ -17,11 +17,6 @@ a:hover {
     cursor: pointer;
 }
 
-/* #main-content > section > section,
-#main-content > section > article {
-    border: 1px solid #ccc;
-} */
-
 /* Navbar */
 nav {
     background-color: white;
