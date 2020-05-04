@@ -144,17 +144,66 @@ nav * {
 /* Interactive Section */
 #i-top-row {
     display: grid;
+    border-bottom: 1px solid black;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "i-left-col i-right-col";
 }
 #i-left-col {
     grid-area: i-left-col;
+    padding-bottom: 0.6em;
+    vertical-align: bottom;
 }
 #i-right-col {
+    position: relative;
     grid-area: i-right-col;
+    margin-block-end: 0;
+    margin-block-start: 0;
 }
-
+#i-right-col p {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+#i-left-col > img {
+    padding-right: 0.75em;
+    float: left;
+}
+#subscriber-number {
+    border-width: 1px 1px 1px medium;
+    border-style: solid solid solid none;
+    margin: 0 0 0 -5px;
+    padding: 0 6px 2px 7px;
+    border-color: rgb(204, 204, 204);
+    color: rgb(115, 115, 115);
+    border-radius: 0 3px 3px 0;
+}
+#beside-creator {
+    display: grid;
+    float: left;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "i-channel"
+        "subscribe";
+}
+#i-channel {
+    grid-area: i-channel;
+    color: rgb(51, 51, 51);
+}
+#subscribe {
+    grid-area: subscribe;
+}
+#subscribe button {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 1px 3px 2px 3px;
+    border-radius: 3px 0 0 3px;
+}
 #b-bottom-row {
     display: grid;
     grid-template-columns: 4fr 1fr;
