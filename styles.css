@@ -145,12 +145,12 @@ nav * {
 .vid-info {
     grid-area: vid-info;
 }
-section#up-next article:first-child p:last-child {
-    text-align: right;
+#up-next > #header {
+    display: table;
 }
-section#up-next article:first-child p {
-    margin-block-end: 0;
-    margin-block-start: 0;
+#up-next > #header span {
+    display: table-cell;
+    vertical-align: middle;
 }
 .vid-info p {
     margin-block-end: 0;
