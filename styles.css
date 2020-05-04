@@ -17,10 +17,10 @@ a:hover {
     cursor: pointer;
 }
 
-#main-content > section > section,
+/* #main-content > section > section,
 #main-content > section > article {
     border: 1px solid #ccc;
-}
+} */
 
 /* Navbar */
 nav {
@@ -340,7 +340,7 @@ nav * {
 }
 footer {
     background-color: white;
-    margin-top: 4em;
+    margin: 4em 0;
     padding: 0 2em;
 }
 footer > section:first-child {
@@ -360,6 +360,26 @@ footer > section:first-child > button {
     box-shadow: none;
     border: 1px solid rgb(211, 211, 211);
     border-style: solid;
+}
+#f-top {
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+#f-top a,
+#f-bottom a {
+    padding: 0 12px 0 2px;
+}
+#f-top a {
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight: bold;
+}
+#f-bottom a {
+    color: rgb(102, 102, 102);
+}
+#f-bottom {
+    padding-bottom: 1em;
+    font-size: 12px;
 }
 .footer-logo {
     padding-left: 0;
