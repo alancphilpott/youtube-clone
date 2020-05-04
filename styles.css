@@ -12,6 +12,10 @@ a {
     text-decoration: none;
     color: #167ac6;
 }
+button:hover,
+a:hover {
+    cursor: pointer;
+}
 
 #main-content > section > section,
 #main-content > section > article {
@@ -124,9 +128,26 @@ nav * {
         "description"
         "comments";
 }
-#interactive,
-#description,
+#desc-content {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
 #comments {
+    padding: 4em 0;
+    text-align: center;
+    background-color: white;
+}
+#show-more {
+    text-align: center;
+    margin-top: 0.25em;
+}
+#show-more > button {
+    border: none;
+    background: none;
+    font-size: 0.8em;
+}
+
+#interactive,
+#description {
     padding: 1em;
     background-color: white;
 }
@@ -144,7 +165,7 @@ nav * {
 /* Interactive Section */
 #i-top-row {
     display: grid;
-    border-bottom: 1px solid #666666;
+    border-bottom: 1px solid rgb(226, 226, 226);
     grid-template-columns: 4fr 1.5fr;
     grid-template-rows: auto;
     grid-template-areas: "i-left-col i-right-col";
