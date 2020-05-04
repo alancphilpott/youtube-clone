@@ -125,6 +125,37 @@ nav * {
 #current iframe {
     width: 100%;
 }
+#video-title {
+}
+
+/* Interactive Section */
+#i-top-row {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "i-left-col i-right-col";
+}
+#i-left-col {
+    grid-area: i-left-col;
+}
+#i-right-col {
+    grid-area: i-right-col;
+}
+
+#b-bottom-row {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "b-left-col b-right-col";
+}
+#b-left-col {
+    grid-area: b-left-col;
+}
+#b-right-col {
+    grid-area: b-right-col;
+}
+
+/* Up Next Section */
 #up-next {
     grid-area: up-next;
     background-color: white;
@@ -157,21 +188,21 @@ nav * {
 #header-text {
     grid-area: header-text;
     display: table;
-    padding-top: 0.5em;
+    padding-top: 0.3em;
+    font-weight: bold;
+    font-size: 14px;
 }
 #autoplay {
     grid-area: autoplay;
     text-align: right;
     display: table;
 }
-
 #header-text span,
 #autoplay span {
     display: table-cell;
     vertical-align: middle !important;
     font-size: 1em;
 }
-
 #toggle-icon {
     font-size: 2em !important;
     color: #167ac6;
