@@ -1,5 +1,5 @@
 #content {
-    width: 77%;
+    width: 85%;
     border: 2px solid #999999;
     margin: auto;
 }
@@ -27,7 +27,7 @@ nav * {
 #nav {
     display: grid;
     align-items: center;
-    grid-template-columns: 4fr 12fr 3fr;
+    grid-template-columns: 4fr 12fr 4fr;
     grid-template-rows: auto;
     grid-template-areas: "nav-left-logo search nav-right-buttons";
 }
