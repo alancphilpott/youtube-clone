@@ -120,11 +120,28 @@ nav * {
         "description"
         "comments";
 }
+#current iframe {
+    width: 100%;
+}
 #up-next {
     grid-area: up-next;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
 }
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "thumbnail vid-info";
+}
+
+.thumbnail {
+    grid-area: thumbnail;
+}
+.vid-info {
+    grid-area: vid-info;
+}
+
 .logo {
     padding-left: 15px;
     max-width: 100px;
