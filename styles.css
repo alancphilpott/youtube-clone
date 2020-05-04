@@ -107,13 +107,15 @@ nav * {
 /* Video Content */
 #main-content {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 0.75em;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "video up-next";
 }
 #video {
+    display: grid;
     grid-area: video;
+    grid-gap: 0.75em;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -122,21 +124,24 @@ nav * {
         "description"
         "comments";
 }
+#interactive,
+#description,
+#comments {
+    padding: 1em;
+    background-color: white;
+}
 #current iframe {
     width: 100%;
 }
 #video-title {
     font-size: 20px;
+}
+#video-title,
+#desc-publish-date {
     margin-block-end: 0.75em;
-    margin-block-start: 0.75em;
+    margin-block-start: 0;
 }
-
 /* Interactive Section */
-#interactive {
-    background-color: #ffffff;
-    padding-left: 1em;
-    padding-right: 1em;
-}
 #i-top-row {
     display: grid;
     grid-template-columns: 4fr 1fr;
