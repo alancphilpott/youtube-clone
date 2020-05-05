@@ -1,57 +1,57 @@
-# Project Name
+# Embedding Images and Video
 
-> One paragraph statement about the project.
+> This project is a clone of YouTube video player page.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+## Navigation bar
+
+-   An embedded image that represents a logo.
+-   Logo is aligned to the leftmost part of the navbar.
+-   Input tag that represents a search bar.
+-   Search bar is aligned to the middle of the navbar.
+-   Button tag that represents the search button.
+-   Search button is at the end (rightmost part) of the search bar.
+-   Has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+
+## Video
+
+-   It is displayed.
+-   Shows the video title.
+-   Shows the number of views.
+-   Has like and dislike icons.
+-   Has a share button.
+-   Shows the avatar of the user who uploaded the video.
+-   Has a subscribe button.
+
+## Sidebar Recommended videos
+
+-   Shows the recommended video’s thumbnail preview.
+-   Shows the title of the video.
+-   Shows the number of views.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+-   HTML5
+-   CSS3
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**Open index.html in the browser**
 
 ## Authors
 
-👤 **Author1**
+👤 **@alancphilpott**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@githubhandle](https://github.com/alancphilpott)
+-   Twitter: [@twitterhandle](https://twitter.com/alanphilpott_)
+-   Linkedin: [linkedin](https://www.linkedin.com/in/philpottalan/)
 
-👤 **Author2**
+👤 **@DejazmachMolla**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@githubhandle](https://github.com/DejazmachMolla)
+-   Twitter: [@twitterhandle](https://twitter.com/DJATSS)
+-   Linkedin: [linkedin](https://www.linkedin.com/in/dejazmach-getachew-027aabaa/)
 
 ## 🤝 Contributing
 
@@ -65,9 +65,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-   Microverse HTML & CSS3 project.
 
 ## 📝 License
 
