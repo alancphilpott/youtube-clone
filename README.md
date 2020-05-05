@@ -2,7 +2,7 @@
 
 > This project is a clone of YouTube video player page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://i.imgur.com/ria0vKy.png)
 
 ## Navigation bar
 
